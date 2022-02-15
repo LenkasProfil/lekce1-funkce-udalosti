@@ -10,12 +10,20 @@
 
 	<h1>Funkce a události</h1>
 
-	<div class="ctverecek">Čtvereček</div>
-
-	<pre>Tady bude výsledek: <span id="vysledek"></span></pre>
+	<div class="ctverecek" id="test">Čtvereček</div>
+<!-- vlozeni z js hodnoty c  -->
+	<pre>Tady bude výsledek: <span id="vysledek"></span></pre> 
 
 	<button onclick="upozorni()">
 		Moje tlačítko
+	</button>
+
+	<!-- potreba vlozit class ctverecek class se oznacuje . id # apod.  -->
+	<button onclick="priKliknuti('.ctverecek')">Zmen barvu</button>  
+
+	<!-- nadefinovany hdontoy pro fci secti -->
+	<button onclick="secti(1,2)">
+		Zobraz vysledek
 	</button>
 
 	<div class="napoveda">
